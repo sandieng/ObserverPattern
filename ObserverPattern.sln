@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{44D54A34-8E71-45F9-9064-20832AC40E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{91999B6E-2169-4EE4-8FB4-EADC32305C95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Observer Pattern", ".NET Observer Pattern", "{ACC18655-0398-41E1-A2F0-6CAF73E35538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetObserverPattern", "DotNetObserverPattern\DotNetObserverPattern.csproj", "{BD865BE5-E70E-47A3-B578-138C6DCEED9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetObserverClient", "DotNetObserverClient\DotNetObserverClient.csproj", "{D7C5FE3B-0201-404F-AC9E-FA5C2C1642F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handcraft Observer Pattern", "Handcraft Observer Pattern", "{2BCB5D6C-973D-491F-AA55-D573F12C4288}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44D54A34-8E71-45F9-9064-20832AC40E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D54A34-8E71-45F9-9064-20832AC40E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D54A34-8E71-45F9-9064-20832AC40E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D54A34-8E71-45F9-9064-20832AC40E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91999B6E-2169-4EE4-8FB4-EADC32305C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91999B6E-2169-4EE4-8FB4-EADC32305C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91999B6E-2169-4EE4-8FB4-EADC32305C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91999B6E-2169-4EE4-8FB4-EADC32305C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD865BE5-E70E-47A3-B578-138C6DCEED9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD865BE5-E70E-47A3-B578-138C6DCEED9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD865BE5-E70E-47A3-B578-138C6DCEED9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD865BE5-E70E-47A3-B578-138C6DCEED9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C5FE3B-0201-404F-AC9E-FA5C2C1642F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C5FE3B-0201-404F-AC9E-FA5C2C1642F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C5FE3B-0201-404F-AC9E-FA5C2C1642F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C5FE3B-0201-404F-AC9E-FA5C2C1642F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44D54A34-8E71-45F9-9064-20832AC40E4E} = {2BCB5D6C-973D-491F-AA55-D573F12C4288}
+		{91999B6E-2169-4EE4-8FB4-EADC32305C95} = {2BCB5D6C-973D-491F-AA55-D573F12C4288}
+		{BD865BE5-E70E-47A3-B578-138C6DCEED9B} = {ACC18655-0398-41E1-A2F0-6CAF73E35538}
+		{D7C5FE3B-0201-404F-AC9E-FA5C2C1642F9} = {ACC18655-0398-41E1-A2F0-6CAF73E35538}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F9FA175-D6EB-4192-BB06-C0A584F2C153}
+	EndGlobalSection
+EndGlobal
