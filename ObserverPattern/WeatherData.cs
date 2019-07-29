@@ -29,17 +29,12 @@ namespace ObserverPattern
             _observers.ForEach(x => x.Update(_temperature, _humidity, _pressure));
         }
 
-        public void MeasurementsChanged()
-        {
-            NotifyObservers();
-        }
-
         public void SetMeasurements(float temperature, float humidity, float pressure)
         {
             _temperature = temperature;
             _humidity = humidity;
             _pressure = pressure;
-            MeasurementsChanged();
+            NotifyObservers();
         }
     }
 }
